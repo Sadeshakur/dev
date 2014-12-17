@@ -1,0 +1,72 @@
+
+relative short cuts
+../../../brazil
+/'                 if  you actually want to add a '
+//                 if you want to ad a /
+
+Problems with hw? Ask robert/hipchat
+ls -a             show all files including hidden
+master         default name for git repository
+git status      tells you where you are
+git init          to start a git repository
+~                 to get home
+git add .       add multiple docs at once
+
+!dev/wdi/time_machine
+git add lindsay_lohan.txt
+git status
+git commit -m "adds lindsay_lohan.txt"        -want to put a message in abt what the command means
+git rm wdi                                                      remove git
+subl lindsay_lohan.txt
+git status
+git add lindsay_lohan.txt
+git status
+git commit -m "adds lindsay's birth"
+git commit -m "adds starring role in parent trap"
+
+1986 linsady is born
+
+ linday stars in parent trap
+
+git add lindsay_lohan.txt
+git commit "experimentation"
+
+cd godot
+git remote -v                                           tells from where files have been pulled and to where they shall be sent
+touch sade_sadestevens.txt
+git add .
+git commit -m"added file with my name"
+git push origin master
+
+~/dev/godot
+fork                                          your personal copies
+upstream                                 top top repository
+pull                                          brings down changes and merges it
+1s                                             show short code
+history                                  will show you every action you ever have
+git pull upstream master          How to get from upstream
+string concatination                  adding 2 strings together
+string interpolation                   "#{4 + 4}"Double Quotes, Hashsign, brackets, numbers in side
+                                                punching holes and putting answer in blank
+
+::                                              Class methods
+#                                              Instance Method
+gsub                                        How to "find & replace" with ruby
+Mutator Method
+Notes
+      -Ruby Doc
+      -Stack Overflow
+
+Bolean values                           True, false
+
+IF true
+==                                            double operators
+&&                                            You need 2 conditions to be true before you execute
+||                                               You need either one of the conditions to be true before you execute
+\                                                 Also means or
+
+learn                                          ==, &&, ||, >, >=, < and <=
+input.chomp                               stops the breaking up of the word.i
+
+y loop                                          use when you don't know what you're looking for
+Ctrl C

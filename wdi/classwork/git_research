@@ -1,0 +1,23 @@
+Git research
+    What is Git?
+        Answer: Git is a control system that is useful for keeping a precise history of one's work through version-tracking.
+        Unlike other programs, Gits does not simply save the history of the file, it records every change that is saved as
+        little snapshots. This leaves little room for lost data, and allows people to work offline until they can connect to the
+        internet.
+
+    What problem does it solve?
+        Answer: It reduces clutter and confusion when needing to search for different versions of a document, it offers
+        offers more extensive storage of this data and it is also useful for data recovery concerns.
+
+    What are the alternatives to Git?
+        Answer: As an alternative to Git are other programs, like CVCS, but these programs save the file in different forms.
+        Grit however records every change that is made and saved or committed.This offers an incredible amount of detail
+        into the history.
+
+    Articulate a specific scenario in which Git would be useful.
+        Scenario: I was working on a document for homework and I worked with a code, saved (or comitted it) it so that I
+        could try to run it. Once I get to class however, I add something onto my code and that ruins everything. I can
+        use git to get back to the working version of my document
+
+
+

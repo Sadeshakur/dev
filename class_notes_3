@@ -1,0 +1,82 @@
+LEARNING OBJECTIVES
+      * Explain the difference between a data type vs. data structure
+      * Explain the difference between a string & a symbol
+      * Articulate differences between Arrays & Hashes
+      * Create, access, change & destroy elemets in Arrays & Hashes
+      * Explain what a hashtag function is
+
+NEW CODE
+      +=                                           script = script + "" - adding everything together, adding a line each time
+      a+=b                                        a = a + b
+      !                                                bang operator, ex. !
+      ```                                            code block - begining and end
+      ```ruby                                     blocks, but hightlights the keywords
+      until                                          true until something happens, not used
+      ALL CAPS VARIABLE                  when this happens, the variable is equal to a constonant
+      ==                                            Equal Equal, comparer
+CONCEPTS
+      Data types                                classifies data, determines what operations can be done
+      Data structure                          way of organizing data, so that computers can use it efficiently - get it back, keep it organized
+      Arrays  []                                  list - Indexed by number. Order starts with 0 & separated by comma
+                                                      ex. breakfast_foods = [water, rice, sushi]
+                                                      student.keys ---> will give you an array
+                                                      Can push things into it -> breakfast_foods.push ("tea","water")
+                                                      breakfast_food.unshift("vitamins")    -you unshift to put string in front of list
+                                                      Can use any kind of data type
+      Hashes  {}                               Key-value pairs (like variables, it points to something else)
+                                                      like a dictionary - you put something in and get it right back out
+                                                      {"name"=> "Dennis"} bus [2] - hey bus, give me what is inside of number 2
+                                                          (key            value)
+                                                                hashrocket
+                                                      defining or creating a hash  student={name}
+                                                      [book] = "art of war"
+
+                                                      hash assignments            hash["key"] = value
+                                                      dances.pop - remove last thing
+                                                      dances.push  -  add to end
+                                                      dances_move = dances.shift
+                                                      dances.pop2 - takes off last 2
+                                                      student.delete("key")
+                                                      student["keys"]= "key2"
+                                                      .class
+symbols                                           Declare them once and it always references the same string
+                                                        light weight strings, immutable
+strings                                              mutable
+                                                        to unlock an array - sidekick[1][]:name
+ARRAYS AGAIN                                 Create
+                                                                  array = []
+                                                        Add to            push("string")
+                                                            @#1           array.insert(1, "string")
+                                                                               cheeses << pepperjack
+                                                        Remove
+                                                              1 item        array.pop(index#)
+                                                                                array.delete @(index#)
+                                                              duplicates  hash.uniq
+                                                              everything  array.clear
+                                                        Order
+                                                              array.index(value)
+                                                        Update
+                                                              array[origin]:"american"
+                                                              cheddar.store("taste","sharp")
+
+                                                            Arrays are ordered, hashes are
+                                                            Hash - anything can be a key, for an array, only ordered by number
+
+What different methods can you use to access or read values from an array
+array[1] --> returns ["y"]
+array.first --> returns ["x"]
+array.last --> returns ["xx"]
+array.take(2) --> returns the first 2, ["x, "y"]
+array.drop(2) --> returns the last 2, ["z", "xx"]
+
+array.index("value")
+array.each do
+
+array.sample
+
+What different methods are available to remove or destroy values?
+  array.pop --> removes a value from the back
+  array.shift --> removes a value from the front
+  array.delete(2) --> removes the value at index(2): "z"
+  array.compact --> removes all 'nil' values from the array (remember to add '!' if you want this specific one to be modified)
+  array.uniq --> removes duplicates

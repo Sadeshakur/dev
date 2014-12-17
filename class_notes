@@ -1,0 +1,116 @@
+Commands
+
+Shift window                              CTRL + ALT + Number Pad (4=left, 2=down, 6=right, 8=up)
+Sublime                                     subl
+Close Window                            Shift + CTRL+ Q
+Sublime file                               Subl filename
+Shows all apps                          CTRL + Tab
+Full screen                                CTRL + ALT + f?
+Preferences for subl                  CTRL + SHIFT + P
+                                                 Type pref.
+                                                 Select settings-user
+                                                 Put preferences into brackets
+ll                                                ls -la ,--long format
+
+CLI                                            Command line interface
+Ctrl+k?                                     Clear
+ls                                              Shows files inside, List out directories, files & folders
+man+ls                                     If you want description / additional information about command
+Q                                              to get out
+CRTL+c                                    Quit process
+cd                                            Change directory, - cd downloads -to look through
+                                                Home folder
+..                                              To go up a directory
+.                                               current directory
+~                                              home
+prompt                                     shows you what process you're currently in ex. Sade~
+ls -la                                         All folders & files listed out & permissions
+                                                files that begin  with period – are hidden
+                                                But a lot of configuration settings are hidden here
+cd .wdi                                     Open up wdi folder
+Tab completion
+~                                              Represents your home directory, takes you back to home
+
+master                                      Another name for a branch / copy
+CTRL + kb?                               Pull up side bar
+mv                                            move, rename
+man                                          to find out more info
+man mv                                    find out about mv
+
+cp                                             copy to make a new file, same name
+mv                                            move to rename, dif. from copy
+                                                 NAME.md name.md
+/                                                folders
+rm                                             remove
+
+rm -r bin                                    remove file + directory bin
+-f                                               remove files w/o confirmation
+rm -f                                          remove whole folder
+rm -rf                                         installfest/
+a shell                                        a program where you can write commands ex.bash/terminal
+alt + tab                                     switch btw tabs
+psql
+shift+control+t                           new tab
+ll                                                show pieces inside
+subl file                                     open in subl
+quit / !!!                                      to get out of pry
+pry                                             disposable scratch pad, all in memory, nothing saved
+psql                                           command line interface
+\q                                                to exit psql
+streams                                     communication channel btw. & computer program & its environment           where it began execution – conveyor belts where we're sending info
+                                                -just info of where you're going to send it – can be redirected
+  -STD Out                                  -standard out   -response – not necessarily error
+  -STD error                                -standard error   -command not found
+cat                                             contents inside
+echo                                            repeat something
+cd                                              will always get you home
+
+
+standard input                                 -redirect from standard out to good stuff & errors to standard errors
+puts - standard out
+p -standard in
+>                                                       Used to redirect
+/dev/null                                             Folder dev/null, black hole, redirect random things here
+/dev                                                   root dev
+~/dev                                                folder dev
+absolute path                                    starting from the top            /dev
+relative path                                      not the full address, where you are relationally      ~/dev
+mv name to new N
+
+RUBY
+ruby                                                   an object-oriented language, asking objecet to do something
+scripts                                                ruby files
+repel                                                  any commands interpreted as ruby
+binaries                                              true & false
+5 % 2                                                  modules, remainders
+/a/                                                       redjacks - find anythign that starts with a ...?
+2. respond_to? (:upcase)                     how to figure out if something responds to a command
+.class                                                  tells you what type something is - float, string, fixnum
+to_i                                                     changes fixnums & floats
+to_f                                                     changes floats
+#Stdout                                              Puts
+#Stdin                                                Gets
+Variables                                            Undefined placeholder for data, pointers to things
+                                                           something=something  -assignment operator
+                                                           dog = "sparky"
+                                                           Reassign, dog = "spike"
+@teacher.upcase                                 Just creates another, doesn't replace lowercases
+!                                                           Ban operator / mutator method / setter, changes actual variable
+a = b                                                    b=B, a=B
+
+ERRORS
+Nomethoderror                                     don't know how to do that thing
+Type errors                                           incompatible data types
+Name error                                           No name assignment, Daniel - variable not assigned to anything
+Syntax                                                  Unexpected identifier
+
+command line                                       direct way to interact with comp., simple
+touch                                                    creates file
+directory                                               home for files
+rm                                                         Remove file
+rm -rf                                                    Remove folder
+../../..                                                     Goes up 3 directories
+root                                                       total top, absolute
+$stdin.gets                                            allows you to put info in subl
+ruby filename                                        command to run files
+#                                                           used to write comments in ruby
